@@ -1,0 +1,15 @@
+head:
+MOVL R0, #00H
+MOVH R0, #00H
+MOVL R1, #00H
+MOVH R1, #40H
+MOVL R2, #00H
+MOVH R2, #10H
+
+STR R1, [R2, #00H]
+LDR R3, [R2, #00H]
+
+lop:
+ADD R3, R3, R1
+BC head
+BJUMP lop

@@ -1,0 +1,36 @@
+Release 5.1i - ngdbuild F.23
+Copyright (c) 1995-2002 Xilinx, Inc.  All rights reserved.
+
+Command Line: ngdbuild -quiet -dd d:\risc\project/_ngo -uc 16bit.ucf
+-insert_keep_hierarchy -p xc2s150-pq208-6 cpu_16.ngc cpu_16.ngd 
+
+Reading NGO file "D:/risc/Project/cpu_16.ngc" ...
+Reading component libraries for design expansion...
+
+Annotating constraints to design from file "16bit.ucf" ...
+INFO:NgdBuild:738 - A case sensitive search for the INST, PAD, or NET element
+   referred to by a constraint entry in '16bit.ucf' that accompanies this design
+   has failed, while a case insensitive search is in progress. The result of the
+   case insensitive search will be used, but messages will accompany each and
+   every use of a case insensitive result. Constraints are case sensitive with
+   respect to user-specified identifiers, which includes names of logic elements
+   in a design.
+INFO:NgdBuild:740 - Line 126 in '16bit.ucf': Found case insensitive match for
+   NET name 'PRIX'. NET is 'prix'.
+INFO:NgdBuild:740 - Line 127 in '16bit.ucf': Found case insensitive match for
+   NET name 'KRIX'. NET is 'krix'.
+
+Checking timing specifications ...
+Checking expanded design ...
+WARNING:NgdBuild:479 - The input pad net 'clk' is driving one or more clock
+   loads that should only use a dedicated clock buffer. This could result in
+   large clock skews on this net. Check whether the correct type of BUF is being
+   used to drive the clock buffer.
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   1
+
+Writing NGD file "cpu_16.ngd" ...
+
+Writing NGDBUILD log file "cpu_16.bld"...

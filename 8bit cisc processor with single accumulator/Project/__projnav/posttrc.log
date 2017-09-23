@@ -1,0 +1,4 @@
+Post Route Timing Report for Module cpu_8 . . .
+TRACE command line and options:
+trce -quiet -e 3 -l 3 -xml cpu_8 cpu_8.ncd -o cpu_8.twr cpu_8.pcf
+Post Route Timing Report for Module cpu_8 : DONE

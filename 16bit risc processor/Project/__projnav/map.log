@@ -1,0 +1,4 @@
+Mapping Module cpu_16 . . .
+MAP command line:
+map -quiet -p xc2s150-pq208-6 -cm area -pr b -k 4 -c 100 -tx off -o cpu_16_map.ncd cpu_16.ngd cpu_16.pcf
+Mapping Module cpu_16: DONE

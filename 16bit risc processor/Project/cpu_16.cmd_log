@@ -1,0 +1,76 @@
+xst -quiet -ifn __projnav/cpu_16.xst -ofn cpu_16.syr
+xst -quiet -ifn __projnav/cpu_16.xst -ofn cpu_16.syr
+xst -quiet -ifn __projnav/cpu_16.xst -ofn cpu_16.syr
+xst -quiet -ifn __projnav/cpu_16.xst -ofn cpu_16.syr
+xst -quiet -ifn __projnav/cpu_16.xst -ofn cpu_16.syr
+xst -quiet -ifn __projnav/cpu_16.xst -ofn cpu_16.syr
+xst -quiet -ifn __projnav/cpu_16.xst -ofn cpu_16.syr
+xst -quiet -ifn __projnav/cpu_16.xst -ofn cpu_16.syr
+xst -quiet -ifn __projnav/cpu_16.xst -ofn cpu_16.syr
+xst -quiet -ifn __projnav/cpu_16.xst -ofn cpu_16.syr
+xst -quiet -ifn __projnav/cpu_16.xst -ofn cpu_16.syr
+xst -quiet -ifn __projnav/cpu_16.xst -ofn cpu_16.syr
+xst -quiet -ifn __projnav/cpu_16.xst -ofn cpu_16.syr
+xst -quiet -ifn __projnav/cpu_16.xst -ofn cpu_16.syr
+xst -quiet -ifn __projnav/cpu_16.xst -ofn cpu_16.syr
+xst -quiet -ifn __projnav/cpu_16.xst -ofn cpu_16.syr
+xst -quiet -ifn __projnav/cpu_16.xst -ofn cpu_16.syr
+xst -quiet -ifn __projnav/cpu_16.xst -ofn cpu_16.syr
+xst -quiet -ifn __projnav/cpu_16.xst -ofn cpu_16.syr
+ngdbuild -quiet -dd d:\体系结构\16bit/_ngo -uc 16bit.ucf -insert_keep_hierarchy  -p xc2s150-pq208-6 cpu_16.ngc cpu_16.ngd
+xst -quiet -ifn __projnav/cpu_16.xst -ofn cpu_16.syr
+ngdbuild -quiet -dd d:\体系结构\16bit/_ngo -uc 16bit.ucf -insert_keep_hierarchy  -p xc2s150-pq208-6 cpu_16.ngc cpu_16.ngd
+xst -quiet -ifn __projnav/cpu_16.xst -ofn cpu_16.syr
+ngdbuild -quiet -dd d:\体系结构\16bit/_ngo -uc 16bit.ucf -insert_keep_hierarchy  -p xc2s150-pq208-6 cpu_16.ngc cpu_16.ngd
+xst -quiet -ifn __projnav/cpu_16.xst -ofn cpu_16.syr
+ngdbuild -quiet -dd d:\体系结构\16bit/_ngo -uc 16bit.ucf -insert_keep_hierarchy  -p xc2s150-pq208-6 cpu_16.ngc cpu_16.ngd
+xst -quiet -ifn __projnav/cpu_16.xst -ofn cpu_16.syr
+ngdbuild -quiet -dd d:\体系结构\16bit/_ngo -uc 16bit.ucf -insert_keep_hierarchy  -p xc2s150-pq208-6 cpu_16.ngc cpu_16.ngd
+xst -quiet -ifn __projnav/cpu_16.xst -ofn cpu_16.syr
+xst -quiet -ifn __projnav/cpu_16.xst -ofn cpu_16.syr
+ngdbuild -quiet -dd d:\体系结构\16bit/_ngo -uc 16bit.ucf -insert_keep_hierarchy  -p xc2s150-pq208-6 cpu_16.ngc cpu_16.ngd
+map -quiet -p xc2s150-pq208-6 -cm area -pr b -k 4 -c 100 -tx off -o cpu_16_map.ncd cpu_16.ngd cpu_16.pcf
+par -w -ol 2 -t 1 cpu_16_map.ncd cpu_16.ncd cpu_16.pcf
+trce -quiet -e 3 -l 3 -xml cpu_16 cpu_16.ncd -o cpu_16.twr cpu_16.pcf
+bitgen -f cpu_16.ut cpu_16.ncd
+xst -quiet -ifn __projnav/cpu_16.xst -ofn cpu_16.syr
+xst -quiet -ifn __projnav/cpu_16.xst -ofn cpu_16.syr
+xst -quiet -ifn __projnav/cpu_16.xst -ofn cpu_16.syr
+xst -quiet -ifn __projnav/cpu_16.xst -ofn cpu_16.syr
+xst -quiet -ifn __projnav/cpu_16.xst -ofn cpu_16.syr
+xst -quiet -ifn __projnav/cpu_16.xst -ofn cpu_16.syr
+xst -quiet -ifn __projnav/cpu_16.xst -ofn cpu_16.syr
+xst -quiet -ifn __projnav/cpu_16.xst -ofn cpu_16.syr
+ngdbuild -quiet -dd d:\16bit/_ngo -uc 16bit.ucf -insert_keep_hierarchy  -p xc2s150-pq208-6 cpu_16.ngc cpu_16.ngd
+xst -quiet -ifn __projnav/cpu_16.xst -ofn cpu_16.syr
+ngdbuild -quiet -dd d:\16bit/_ngo -uc 16bit.ucf -insert_keep_hierarchy  -p xc2s150-pq208-6 cpu_16.ngc cpu_16.ngd
+map -quiet -p xc2s150-pq208-6 -cm area -pr b -k 4 -c 100 -tx off -o cpu_16_map.ncd cpu_16.ngd cpu_16.pcf
+par -w -ol 2 -t 1 cpu_16_map.ncd cpu_16.ncd cpu_16.pcf
+trce -quiet -e 3 -l 3 -xml cpu_16 cpu_16.ncd -o cpu_16.twr cpu_16.pcf
+bitgen -f cpu_16.ut cpu_16.ncd
+xst -quiet -ifn __projnav/cpu_16.xst -ofn cpu_16.syr
+ngdbuild -quiet -dd d:\risc\project/_ngo -uc 16bit.ucf -insert_keep_hierarchy  -p xc2s150-pq208-6 cpu_16.ngc cpu_16.ngd
+map -quiet -p xc2s150-pq208-6 -cm area -pr b -k 4 -c 100 -tx off -o cpu_16_map.ncd cpu_16.ngd cpu_16.pcf
+par -w -ol 2 -t 1 cpu_16_map.ncd cpu_16.ncd cpu_16.pcf
+trce -quiet -e 3 -l 3 -xml cpu_16 cpu_16.ncd -o cpu_16.twr cpu_16.pcf
+bitgen -f cpu_16.ut cpu_16.ncd
+xst -quiet -ifn __projnav/cpu_16.xst -ofn cpu_16.syr
+ngdbuild -quiet -dd d:\risc\project/_ngo -uc 16bit.ucf -insert_keep_hierarchy  -p xc2s150-pq208-6 cpu_16.ngc cpu_16.ngd
+map -quiet -p xc2s150-pq208-6 -cm area -pr b -k 4 -c 100 -tx off -o cpu_16_map.ncd cpu_16.ngd cpu_16.pcf
+par -w -ol 2 -t 1 cpu_16_map.ncd cpu_16.ncd cpu_16.pcf
+trce -quiet -e 3 -l 3 -xml cpu_16 cpu_16.ncd -o cpu_16.twr cpu_16.pcf
+bitgen -f cpu_16.ut cpu_16.ncd
+xst -quiet -ifn __projnav/cpu_16.xst -ofn cpu_16.syr
+ngdbuild -quiet -dd d:\risc\project/_ngo -uc 16bit.ucf -insert_keep_hierarchy  -p xc2s150-pq208-6 cpu_16.ngc cpu_16.ngd
+xst -quiet -ifn __projnav/cpu_16.xst -ofn cpu_16.syr
+ngdbuild -quiet -dd d:\risc\project/_ngo -uc 16bit.ucf -insert_keep_hierarchy  -p xc2s150-pq208-6 cpu_16.ngc cpu_16.ngd
+map -quiet -p xc2s150-pq208-6 -cm area -pr b -k 4 -c 100 -tx off -o cpu_16_map.ncd cpu_16.ngd cpu_16.pcf
+par -w -ol 2 -t 1 cpu_16_map.ncd cpu_16.ncd cpu_16.pcf
+trce -quiet -e 3 -l 3 -xml cpu_16 cpu_16.ncd -o cpu_16.twr cpu_16.pcf
+bitgen -f cpu_16.ut cpu_16.ncd
+xst -quiet -ifn __projnav/cpu_16.xst -ofn cpu_16.syr
+ngdbuild -quiet -dd d:\risc\project/_ngo -uc 16bit.ucf -insert_keep_hierarchy  -p xc2s150-pq208-6 cpu_16.ngc cpu_16.ngd
+map -quiet -p xc2s150-pq208-6 -cm area -pr b -k 4 -c 100 -tx off -o cpu_16_map.ncd cpu_16.ngd cpu_16.pcf
+par -w -ol 2 -t 1 cpu_16_map.ncd cpu_16.ncd cpu_16.pcf
+trce -quiet -e 3 -l 3 -xml cpu_16 cpu_16.ncd -o cpu_16.twr cpu_16.pcf
+bitgen -f cpu_16.ut cpu_16.ncd

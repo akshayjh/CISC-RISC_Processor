@@ -1,0 +1,147 @@
+xst -quiet -ifn __projnav/cpu_8.xst -ofn cpu_8.syr
+xst -quiet -ifn __projnav/cpu_8.xst -ofn cpu_8.syr
+xst -quiet -ifn __projnav/cpu_8.xst -ofn cpu_8.syr
+xst -quiet -ifn __projnav/cpu_8.xst -ofn cpu_8.syr
+xst -quiet -ifn __projnav/cpu_8.xst -ofn cpu_8.syr
+xst -quiet -ifn __projnav/cpu_8.xst -ofn cpu_8.syr
+xst -quiet -ifn __projnav/cpu_8.xst -ofn cpu_8.syr
+xst -quiet -ifn __projnav/cpu_8.xst -ofn cpu_8.syr
+xst -quiet -ifn __projnav/cpu_8.xst -ofn cpu_8.syr
+xst -quiet -ifn __projnav/cpu_8.xst -ofn cpu_8.syr
+xst -quiet -ifn __projnav/cpu_8.xst -ofn cpu_8.syr
+xst -quiet -ifn __projnav/cpu_8.xst -ofn cpu_8.syr
+xst -quiet -ifn __projnav/cpu_8.xst -ofn cpu_8.syr
+xst -quiet -ifn __projnav/cpu_8.xst -ofn cpu_8.syr
+xst -quiet -ifn __projnav/cpu_8.xst -ofn cpu_8.syr
+xst -quiet -ifn __projnav/cpu_8.xst -ofn cpu_8.syr
+xst -quiet -ifn __projnav/cpu_8.xst -ofn cpu_8.syr
+xst -quiet -ifn __projnav/cpu_8.xst -ofn cpu_8.syr
+xst -quiet -ifn __projnav/cpu_8.xst -ofn cpu_8.syr
+xst -quiet -ifn __projnav/cpu_8.xst -ofn cpu_8.syr
+xst -quiet -ifn __projnav/cpu_8.xst -ofn cpu_8.syr
+xst -quiet -ifn __projnav/cpu_8.xst -ofn cpu_8.syr
+xst -quiet -ifn __projnav/cpu_8.xst -ofn cpu_8.syr
+xst -quiet -ifn __projnav/cpu_8.xst -ofn cpu_8.syr
+xst -quiet -ifn __projnav/cpu_8.xst -ofn cpu_8.syr
+xst -quiet -ifn __projnav/cpu_8.xst -ofn cpu_8.syr
+xst -quiet -ifn __projnav/cpu_8.xst -ofn cpu_8.syr
+xst -quiet -ifn __projnav/cpu_8.xst -ofn cpu_8.syr
+xst -quiet -ifn __projnav/cpu_8.xst -ofn cpu_8.syr
+xst -quiet -ifn __projnav/cpu_8.xst -ofn cpu_8.syr
+ngdbuild -quiet -dd d:\philo/_ngo -uc 8bit.ucf -insert_keep_hierarchy  -p xc2s150-pq208-6 cpu_8.ngc cpu_8.ngd
+ngdbuild -quiet -dd d:\philo/_ngo -uc 8bit.ucf -insert_keep_hierarchy  -p xc2s150-pq208-6 cpu_8.ngc cpu_8.ngd
+ngdbuild -quiet -dd d:\philo/_ngo -uc 8bit.ucf -insert_keep_hierarchy  -p xc2s150-pq208-6 cpu_8.ngc cpu_8.ngd
+ngdbuild -quiet -dd d:\philo/_ngo -uc 8bit.ucf -insert_keep_hierarchy  -p xc2s150-pq208-6 cpu_8.ngc cpu_8.ngd
+xst -quiet -ifn __projnav/cpu_8.xst -ofn cpu_8.syr
+ngdbuild -quiet -dd d:\philo/_ngo -uc 8bit.ucf -insert_keep_hierarchy  -p xc2s150-pq208-6 cpu_8.ngc cpu_8.ngd
+ngdbuild -quiet -dd d:\philo/_ngo -uc 8bit.ucf -insert_keep_hierarchy  -p xc2s150-pq208-6 cpu_8.ngc cpu_8.ngd
+xst -quiet -ifn __projnav/cpu_8.xst -ofn cpu_8.syr
+ngdbuild -quiet -dd d:\philo/_ngo -uc 8bit.ucf -insert_keep_hierarchy  -p xc2s150-pq208-6 cpu_8.ngc cpu_8.ngd
+ngdbuild -quiet -dd d:\philo/_ngo -uc 8bit.ucf -insert_keep_hierarchy  -p xc2s150-pq208-6 cpu_8.ngc cpu_8.ngd
+ngdbuild -quiet -dd d:\philo/_ngo -uc 8bit.ucf -insert_keep_hierarchy  -p xc2s150-pq208-6 cpu_8.ngc cpu_8.ngd
+xst -quiet -ifn __projnav/cpu_8.xst -ofn cpu_8.syr
+ngdbuild -quiet -dd d:\philo/_ngo -uc 8bit.ucf -insert_keep_hierarchy  -p xc2s150-pq208-6 cpu_8.ngc cpu_8.ngd
+map -quiet -p xc2s150-pq208-6 -cm area -pr b -k 4 -c 100 -tx off -o cpu_8_map.ncd cpu_8.ngd cpu_8.pcf
+par -w -ol 2 -t 1 cpu_8_map.ncd cpu_8.ncd cpu_8.pcf
+trce -quiet -e 3 -l 3 -xml cpu_8 cpu_8.ncd -o cpu_8.twr cpu_8.pcf
+bitgen -f cpu_8.ut cpu_8.ncd
+xst -quiet -ifn __projnav/cpu_8.xst -ofn cpu_8.syr
+xst -quiet -ifn __projnav/cpu_8.xst -ofn cpu_8.syr
+ngdbuild -quiet -dd d:\philo/_ngo -uc 8bit.ucf -insert_keep_hierarchy  -p xc2s150-pq208-6 cpu_8.ngc cpu_8.ngd
+map -quiet -p xc2s150-pq208-6 -cm area -pr b -k 4 -c 100 -tx off -o cpu_8_map.ncd cpu_8.ngd cpu_8.pcf
+par -w -ol 2 -t 1 cpu_8_map.ncd cpu_8.ncd cpu_8.pcf
+trce -quiet -e 3 -l 3 -xml cpu_8 cpu_8.ncd -o cpu_8.twr cpu_8.pcf
+bitgen -f cpu_8.ut cpu_8.ncd
+xst -quiet -ifn __projnav/cpu_8.xst -ofn cpu_8.syr
+ngdbuild -quiet -dd d:\philo/_ngo -uc 8bit.ucf -insert_keep_hierarchy  -p xc2s150-pq208-6 cpu_8.ngc cpu_8.ngd
+xst -quiet -ifn __projnav/cpu_8.xst -ofn cpu_8.syr
+ngdbuild -quiet -dd d:\philo/_ngo -uc 8bit.ucf -insert_keep_hierarchy  -p xc2s150-pq208-6 cpu_8.ngc cpu_8.ngd
+map -quiet -p xc2s150-pq208-6 -cm area -pr b -k 4 -c 100 -tx off -o cpu_8_map.ncd cpu_8.ngd cpu_8.pcf
+par -w -ol 2 -t 1 cpu_8_map.ncd cpu_8.ncd cpu_8.pcf
+trce -quiet -e 3 -l 3 -xml cpu_8 cpu_8.ncd -o cpu_8.twr cpu_8.pcf
+bitgen -f cpu_8.ut cpu_8.ncd
+xst -quiet -ifn __projnav/cpu_8.xst -ofn cpu_8.syr
+ngdbuild -quiet -dd d:\philo/_ngo -uc 8bit.ucf -insert_keep_hierarchy  -p xc2s150-pq208-6 cpu_8.ngc cpu_8.ngd
+map -quiet -p xc2s150-pq208-6 -cm area -pr b -k 4 -c 100 -tx off -o cpu_8_map.ncd cpu_8.ngd cpu_8.pcf
+par -w -ol 2 -t 1 cpu_8_map.ncd cpu_8.ncd cpu_8.pcf
+trce -quiet -e 3 -l 3 -xml cpu_8 cpu_8.ncd -o cpu_8.twr cpu_8.pcf
+bitgen -f cpu_8.ut cpu_8.ncd
+xst -quiet -ifn __projnav/cpu_8.xst -ofn cpu_8.syr
+ngdbuild -quiet -dd d:\philo/_ngo -uc 8bit.ucf -insert_keep_hierarchy  -p xc2s150-pq208-6 cpu_8.ngc cpu_8.ngd
+map -quiet -p xc2s150-pq208-6 -cm area -pr b -k 4 -c 100 -tx off -o cpu_8_map.ncd cpu_8.ngd cpu_8.pcf
+par -w -ol 2 -t 1 cpu_8_map.ncd cpu_8.ncd cpu_8.pcf
+trce -quiet -e 3 -l 3 -xml cpu_8 cpu_8.ncd -o cpu_8.twr cpu_8.pcf
+bitgen -f cpu_8.ut cpu_8.ncd
+xst -quiet -ifn __projnav/cpu_8.xst -ofn cpu_8.syr
+ngdbuild -quiet -dd d:\philo/_ngo -uc 8bit.ucf -insert_keep_hierarchy  -p xc2s150-pq208-6 cpu_8.ngc cpu_8.ngd
+map -quiet -p xc2s150-pq208-6 -cm area -pr b -k 4 -c 100 -tx off -o cpu_8_map.ncd cpu_8.ngd cpu_8.pcf
+par -w -ol 2 -t 1 cpu_8_map.ncd cpu_8.ncd cpu_8.pcf
+trce -quiet -e 3 -l 3 -xml cpu_8 cpu_8.ncd -o cpu_8.twr cpu_8.pcf
+bitgen -f cpu_8.ut cpu_8.ncd
+xst -quiet -ifn __projnav/cpu_8.xst -ofn cpu_8.syr
+ngdbuild -quiet -dd d:\philo/_ngo -uc 8bit.ucf -insert_keep_hierarchy  -p xc2s150-pq208-6 cpu_8.ngc cpu_8.ngd
+map -quiet -p xc2s150-pq208-6 -cm area -pr b -k 4 -c 100 -tx off -o cpu_8_map.ncd cpu_8.ngd cpu_8.pcf
+par -w -ol 2 -t 1 cpu_8_map.ncd cpu_8.ncd cpu_8.pcf
+trce -quiet -e 3 -l 3 -xml cpu_8 cpu_8.ncd -o cpu_8.twr cpu_8.pcf
+bitgen -f cpu_8.ut cpu_8.ncd
+xst -quiet -ifn __projnav/cpu_8.xst -ofn cpu_8.syr
+ngdbuild -quiet -dd d:\philo/_ngo -uc 8bit.ucf -insert_keep_hierarchy  -p xc2s150-pq208-6 cpu_8.ngc cpu_8.ngd
+map -quiet -p xc2s150-pq208-6 -cm area -pr b -k 4 -c 100 -tx off -o cpu_8_map.ncd cpu_8.ngd cpu_8.pcf
+par -w -ol 2 -t 1 cpu_8_map.ncd cpu_8.ncd cpu_8.pcf
+trce -quiet -e 3 -l 3 -xml cpu_8 cpu_8.ncd -o cpu_8.twr cpu_8.pcf
+bitgen -f cpu_8.ut cpu_8.ncd
+xst -quiet -ifn __projnav/cpu_8.xst -ofn cpu_8.syr
+ngdbuild -quiet -dd d:\philo/_ngo -uc 8bit.ucf -insert_keep_hierarchy  -p xc2s150-pq208-6 cpu_8.ngc cpu_8.ngd
+map -quiet -p xc2s150-pq208-6 -cm area -pr b -k 4 -c 100 -tx off -o cpu_8_map.ncd cpu_8.ngd cpu_8.pcf
+par -w -ol 2 -t 1 cpu_8_map.ncd cpu_8.ncd cpu_8.pcf
+trce -quiet -e 3 -l 3 -xml cpu_8 cpu_8.ncd -o cpu_8.twr cpu_8.pcf
+bitgen -f cpu_8.ut cpu_8.ncd
+ngdbuild -quiet -dd d:\philo/_ngo -uc 8bit.ucf -insert_keep_hierarchy  -p xc2s150-pq208-6 cpu_8.ngc cpu_8.ngd
+map -quiet -p xc2s150-pq208-6 -cm area -pr b -k 4 -c 100 -tx off -o cpu_8_map.ncd cpu_8.ngd cpu_8.pcf
+par -w -ol 2 -t 1 cpu_8_map.ncd cpu_8.ncd cpu_8.pcf
+trce -quiet -e 3 -l 3 -xml cpu_8 cpu_8.ncd -o cpu_8.twr cpu_8.pcf
+bitgen -f cpu_8.ut cpu_8.ncd
+xst -quiet -ifn __projnav/cpu_8.xst -ofn cpu_8.syr
+xst -quiet -ifn __projnav/cpu_8.xst -ofn cpu_8.syr
+xst -quiet -ifn __projnav/cpu_8.xst -ofn cpu_8.syr
+ngdbuild -quiet -dd d:\philo/_ngo -uc 8bit.ucf -insert_keep_hierarchy  -p xc2s150-pq208-6 cpu_8.ngc cpu_8.ngd
+map -quiet -p xc2s150-pq208-6 -cm area -pr b -k 4 -c 100 -tx off -o cpu_8_map.ncd cpu_8.ngd cpu_8.pcf
+par -w -ol 2 -t 1 cpu_8_map.ncd cpu_8.ncd cpu_8.pcf
+trce -quiet -e 3 -l 3 -xml cpu_8 cpu_8.ncd -o cpu_8.twr cpu_8.pcf
+bitgen -f cpu_8.ut cpu_8.ncd
+xst -quiet -ifn __projnav/cpu_8.xst -ofn cpu_8.syr
+ngdbuild -quiet -dd d:\philo/_ngo -uc 8bit.ucf -insert_keep_hierarchy  -p xc2s150-pq208-6 cpu_8.ngc cpu_8.ngd
+map -quiet -p xc2s150-pq208-6 -cm area -pr b -k 4 -c 100 -tx off -o cpu_8_map.ncd cpu_8.ngd cpu_8.pcf
+par -w -ol 2 -t 1 cpu_8_map.ncd cpu_8.ncd cpu_8.pcf
+trce -quiet -e 3 -l 3 -xml cpu_8 cpu_8.ncd -o cpu_8.twr cpu_8.pcf
+bitgen -f cpu_8.ut cpu_8.ncd
+xst -quiet -ifn __projnav/cpu_8.xst -ofn cpu_8.syr
+ngdbuild -quiet -dd d:\philo/_ngo -uc 8bit.ucf -insert_keep_hierarchy  -p xc2s150-pq208-6 cpu_8.ngc cpu_8.ngd
+map -quiet -p xc2s150-pq208-6 -cm area -pr b -k 4 -c 100 -tx off -o cpu_8_map.ncd cpu_8.ngd cpu_8.pcf
+par -w -ol 2 -t 1 cpu_8_map.ncd cpu_8.ncd cpu_8.pcf
+trce -quiet -e 3 -l 3 -xml cpu_8 cpu_8.ncd -o cpu_8.twr cpu_8.pcf
+bitgen -f cpu_8.ut cpu_8.ncd
+xst -quiet -ifn __projnav/cpu_8.xst -ofn cpu_8.syr
+ngdbuild -quiet -dd d:\philo/_ngo -uc 8bit.ucf -insert_keep_hierarchy  -p xc2s150-pq208-6 cpu_8.ngc cpu_8.ngd
+map -quiet -p xc2s150-pq208-6 -cm area -pr b -k 4 -c 100 -tx off -o cpu_8_map.ncd cpu_8.ngd cpu_8.pcf
+par -w -ol 2 -t 1 cpu_8_map.ncd cpu_8.ncd cpu_8.pcf
+trce -quiet -e 3 -l 3 -xml cpu_8 cpu_8.ncd -o cpu_8.twr cpu_8.pcf
+bitgen -f cpu_8.ut cpu_8.ncd
+xst -quiet -ifn __projnav/cpu_8.xst -ofn cpu_8.syr
+ngdbuild -quiet -dd d:\philo/_ngo -uc 8bit.ucf -insert_keep_hierarchy  -p xc2s150-pq208-6 cpu_8.ngc cpu_8.ngd
+map -quiet -p xc2s150-pq208-6 -cm area -pr b -k 4 -c 100 -tx off -o cpu_8_map.ncd cpu_8.ngd cpu_8.pcf
+par -w -ol 2 -t 1 cpu_8_map.ncd cpu_8.ncd cpu_8.pcf
+trce -quiet -e 3 -l 3 -xml cpu_8 cpu_8.ncd -o cpu_8.twr cpu_8.pcf
+bitgen -f cpu_8.ut cpu_8.ncd
+xst -quiet -ifn __projnav/cpu_8.xst -ofn cpu_8.syr
+ngdbuild -quiet -dd d:\philo/_ngo -uc 8bit.ucf -insert_keep_hierarchy  -p xc2s150-pq208-6 cpu_8.ngc cpu_8.ngd
+map -quiet -p xc2s150-pq208-6 -cm area -pr b -k 4 -c 100 -tx off -o cpu_8_map.ncd cpu_8.ngd cpu_8.pcf
+par -w -ol 2 -t 1 cpu_8_map.ncd cpu_8.ncd cpu_8.pcf
+trce -quiet -e 3 -l 3 -xml cpu_8 cpu_8.ncd -o cpu_8.twr cpu_8.pcf
+bitgen -f cpu_8.ut cpu_8.ncd
+xst -quiet -ifn __projnav/cpu_8.xst -ofn cpu_8.syr
+ngdbuild -quiet -dd d:\philo/_ngo -uc 8bit.ucf -insert_keep_hierarchy  -p xc2s150-pq208-6 cpu_8.ngc cpu_8.ngd
+map -quiet -p xc2s150-pq208-6 -cm area -pr b -k 4 -c 100 -tx off -o cpu_8_map.ncd cpu_8.ngd cpu_8.pcf
+par -w -ol 2 -t 1 cpu_8_map.ncd cpu_8.ncd cpu_8.pcf
+trce -quiet -e 3 -l 3 -xml cpu_8 cpu_8.ncd -o cpu_8.twr cpu_8.pcf
+bitgen -f cpu_8.ut cpu_8.ncd

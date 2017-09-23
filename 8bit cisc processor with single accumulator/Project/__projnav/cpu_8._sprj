@@ -1,0 +1,2 @@
+set p_VhdlLibrary  {}
+set VHDLSources {cpu_8.vhd }

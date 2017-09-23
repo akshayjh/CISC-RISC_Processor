@@ -1,0 +1,71 @@
+MOVL R7, #0AH
+MOVH R7, #00H
+MOVL R5, #10H
+MOVH R5, #00H
+MOVL R4, #01H
+MOVH R4, #00H
+MOVH R6, #00H
+
+main:
+CALL readInt
+AND R3, R2, R2
+MOVL R6, #00H
+CALL printInt
+CALL readInt
+MOVL R6, #09H
+CALL printInt
+CALL add
+MOVL R6, #03H
+CALL printInt
+BJUMP main
+
+readInt:
+I1:
+BK I1
+SCAN R0
+MOVH R0, #00H
+I2:
+BK I2
+SCAN R1
+MOVH R1, #00H
+ADD R2, R0, R1
+ADD R2, R0, R2
+ADD R2, R0, R2
+ADD R2, R0, R2
+ADD R2, R0, R2
+ADD R2, R0, R2
+ADD R2, R0, R2
+ADD R2, R0, R2
+ADD R2, R0, R2
+ADD R2, R0, R2
+RET
+
+printInt:
+O1:
+BP O1
+PRT R6
+O2:
+BP O2
+PRT R7
+O3:
+BP O3
+PRT R1
+OR R0, R0, R5
+O4:
+BP O4
+PRT R0
+RET
+
+add:
+ADD R2, R2, R3
+AND R1, R2, R2
+MOVL R0, #00H
+MOVH R0, #00H
+parse:
+SUB R1, R1, R7
+BC done
+ADD R0, R0, R4
+BJUMP parse
+done:
+ADD R1, R1, R7
+RET

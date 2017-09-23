@@ -1,0 +1,6 @@
+V1 4
+FL d:/philo/cpu_8.vhd 2015/04/14.12:18:35
+FL D:/Philo/cpu_8.vhd 2015/05/05.12:45:00
+EN work/CPU_8           FL D:/Philo/cpu_8.vhd PB ieee/STD_LOGIC_1164 \
+      PB ieee/STD_LOGIC_ARITH PB ieee/STD_LOGIC_UNSIGNED
+AR work/CPU_8/BEHAVIORAL FL D:/Philo/cpu_8.vhd EN work/CPU_8

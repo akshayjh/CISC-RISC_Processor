@@ -1,0 +1,84 @@
+-NOP
+0
+0000000000000000
+
+-ADD
+1
+Rd, Rn, Rm
+0001000mmmnnnddd
+
+-SUB
+1
+Rd, Rn, Rm
+0001001mmmnnnddd
+
+-AND
+1
+Rd, Rn, Rm
+0001010mmmnnnddd
+
+-OR
+1
+Rd, Rn, Rm
+0001110mmmnnnddd
+
+-MOVL
+3
+Rd, #data8
+00100dddxxxxxxxx
+
+-MOVH
+3
+Rd, #data8
+00101dddxxxxxxxx
+
+-LDR
+4
+Rd, [Rn, #data6]
+0100xxxxxxnnnddd
+
+-SCAN
+1
+Rd
+0101ddd000000000
+
+-STR
+4
+Rd, [Rn, #data6]
+0110xxxxxxnnnddd
+
+-PRT
+1
+Rd
+0111ddd000000000
+
+-BJUMP
+2
+rel12
+1000rrrrrrrrrrrr
+
+-BC
+2
+rel12
+1001rrrrrrrrrrrr
+
+-BP
+2
+rel12
+1010rrrrrrrrrrrr
+
+-BK
+2
+rel12
+1011rrrrrrrrrrrr
+
+-CALL
+2
+rel12
+1100rrrrrrrrrrrr
+
+-RET
+0
+1101000000000000
+
+-enddef

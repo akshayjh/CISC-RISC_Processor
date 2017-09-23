@@ -1,0 +1,26 @@
+JDF F
+// Created by Project Navigator ver 1.0
+PROJECT 8bit
+DESIGN 8bit Normal
+DEVFAM spartan2
+DEVFAMTIME 0
+DEVICE xc2s150
+DEVICETIME 0
+DEVPKG pq208
+DEVPKGTIME 0
+DEVSPEED -6
+DEVSPEEDTIME 0
+FLOW XST VHDL
+FLOWTIME 0
+MODULE cpu_8.vhd
+MODSTYLE cpu_8 Normal
+DEPASSOC cpu_8 8bit.ucf Normal
+[Normal]
+xilxSynthAddBufg=xstvhd, spartan2, Schematic.t_synthesize, 1428984977, 0
+[STATUS-ALL]
+cpu_8.bitFile=WARNINGS,1431062007
+cpu_8.ncdFile=WARNINGS,1431062007
+cpu_8.ngcFile=WARNINGS,1431062007
+cpu_8.ngdFile=WARNINGS,1431062007
+[STRATEGY-LIST]
+Normal=True
